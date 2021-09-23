@@ -22,7 +22,7 @@ SECRET_KEY = 'i^3v94q85vv(b9glubf39+0z*l+c&min26h&k*yma#_u0=utfs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['betterbets.herokuapp.com','127.0.0.1','localhost','www.betterbets.ai','betterbets.ai']
+ALLOWED_HOSTS = ['energysaver-hvac.herokuapp.com','127.0.0.1','localhost']
 
 
 # Application definition
@@ -137,7 +137,7 @@ MEDIA_ROOT= os.path.join(BASE_DIR, 'staticfiles/assets')
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
-    "https://betterbets.herokuapp.com",
+    "https://energysaver-hvac.herokuapp.com",
     "http://127.0.0.1:3000"
 ]
 
