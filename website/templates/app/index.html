@@ -40,9 +40,49 @@
 </head>
 
 <body>
+  <!-- <div class="popup">
+      <div class="contentBox"> 
+      </div>
+  </div> -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
+    <div class="popup">
+      <div class="contentBox">
+        <div class="close"></div>
+        <div class="imgBx">
+          <img src="{% static 'assets/img/erfan.jpeg' %}">  
+        </div>
+        <div class="contentPopup">
+          <div>
+            <h3>New Cooling System</h3>
+            <h2>30<sup>%</sup><span>Off</span></h2>
+            <p>This deal will last for 3 days</p>
+            <a href='#contact' >Call us now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Automatic show popup after 2seconds of page-->
+    <script>
+      const popup = document.querySelector('.popup');
+      const close = document.querySelector('.close');
+
+      window.onload = function(){
+        setTimeout(function(){
+          popup.style.display = "block";
+
+          // Add some time delay to show popup
+        }, 2000)
+      }
+
+      close.addEventListener('click', () => {
+        popup.style.display = "none";
+
+      })
+    </script>
+
     <div class="container d-flex">
 
       <div class="logo mr-auto">
