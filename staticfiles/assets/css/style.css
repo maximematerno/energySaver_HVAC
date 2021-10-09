@@ -136,17 +136,17 @@
   {
     background: #fff;
   }
-  .contentBox .content
+  .contentBox .contentPopup
   {
     height: auto;
-    text-align: center;
+    text-align: center ;
     padding: 20px;
     padding-top: 0;
   }
   .close
   {
-    top: 20px;
-    /* right: -10px; */
+    top: 0px;
+    right: 0px;
     background: #f3f3f3 url(close.png);
     background-repeat: no-repeat;
     background-size: 10px;
